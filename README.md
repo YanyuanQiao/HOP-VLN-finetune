@@ -44,6 +44,7 @@ Please follow the instructions below to prepare the data in directories:
     - Download the [collected triplets in PREVALENT [1.5GB]](https://zenodo.org/record/4437864/files/prevalent_aug.json?download=1) (pre-processed for easy use).
 
 ## NDH
+### Data Preparation
 Please follow the instructions below to prepare the data in directories:
 - MP3D navigability graphs: `connectivity`
     - Download the [connectivity maps ](https://github.com/peteanderson80/Matterport3DSimulator/tree/master/connectivity).
