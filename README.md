@@ -46,7 +46,7 @@ Please follow the instructions below to prepare the data in directories:
 ## NDH
 
 ```sh
-cd NDH
+cd finetune_ndh
 ```
 
 ### Data Preparation
