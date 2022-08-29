@@ -68,3 +68,15 @@ bash run/train.bash
 ```bash
 bash run/test.bash
 ```
+## Citation
+If you use or discuss our HOP, please cite our paper:
+```
+@InProceedings{Qiao2022HOP,
+    author    = {Qiao, Yanyuan, Qi Yuankai, Hong, Yicong, Yu, Zheng, Wang, Peng and Wu, Qi},
+    title     = {HOP: History-and-Order Aware Pre-training for Vision-and-Language Navigation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {15418-15427}
+}
+```
