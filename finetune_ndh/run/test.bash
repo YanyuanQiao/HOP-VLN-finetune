@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python tasks/NDH/ndhtrain.py --path_type trusted_path --eval_type test --load snap/bs4-cls/state_dict/best_val_unseen

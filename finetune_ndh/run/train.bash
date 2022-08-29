@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python tasks/NDH/ndhtrain.py --path_type trusted_path --batch_size 4 --lr 0.00001 --name base
