@@ -44,9 +44,25 @@ Please follow the instructions below to prepare the data in directories:
     - Download the [collected triplets in PREVALENT [1.5GB]](https://zenodo.org/record/4437864/files/prevalent_aug.json?download=1) (pre-processed for easy use).
 
 ## NDH
+```
+cd NDH
+```sh
 ### Data Preparation
 Please follow the instructions below to prepare the data in directories:
 - MP3D navigability graphs: `connectivity`
     - Download the [connectivity maps ](https://github.com/peteanderson80/Matterport3DSimulator/tree/master/connectivity).
 - MP3D image features: `img_features`
     - Download the [Scene features](https://www.dropbox.com/s/85tpa6tc3enl5ud/ResNet-152-places365.zip?dl=1) (ResNet-152-Places365).
+    
+### Initial HOP weights
+- Pre-trained HOP weights: `load/model`
+  - Download the `pytorch_model.bin` from [here](https://drive.google.com/drive/folders/1BbFUns4CqIDMfAJ_fPccRrAiOQ8VAsGh?usp=sharing).
+
+### Training
+```bash
+bash run/train.bash
+```
+### Evaluating
+```bash
+bash run/test.bash
+```
