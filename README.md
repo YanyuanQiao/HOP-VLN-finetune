@@ -13,7 +13,7 @@ This respository is the finetune code of [HOP: History-and-Order Aware Pre-train
   ```
   If your CUDA version is 11.3, you can pull the image:
   ```sh
-  docker push starrychiao/vlnbert-2022-3090:tagname
+  docker pull starrychiao/vlnbert-2022-3090:tagname
   ```
   To create the container:
   ```sh
