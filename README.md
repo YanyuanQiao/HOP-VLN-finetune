@@ -21,7 +21,7 @@ This respository is the finetune code of [HOP: History-and-Order Aware Pre-train
   ```
   or (if you pull the image for cuda 11.3)
   ```sh
-  docker run -it --ipc host  --shm-size=1024m --gpus all --name your_name  --volume "your_directory":/root/mount/Matterport3DSimulator starrychiao/vlnbert-2022-3090:tagname
+  docker run -it --ipc host  --shm-size=1024m --gpus all --name your_name  --volume "your_directory":/root/mount/Matterport3DSimulator starrychiao/vlnbert-2022-3090:1.0
   ```
 - Set up
   ```sh
