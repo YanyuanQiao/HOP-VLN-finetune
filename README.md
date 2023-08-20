@@ -32,6 +32,10 @@ This respository is the finetune code of [HOP: History-and-Order Aware Pre-train
 - Download the trained models.
 
 ## R2R
+```sh
+cd finetune_r2r
+```
+
 ### Data Preparation
 Please follow the instructions below to prepare the data in directories:
 - MP3D navigability graphs: `connectivity`
@@ -42,6 +46,19 @@ Please follow the instructions below to prepare the data in directories:
     - Download the [R2R data [5.8MB]](https://github.com/peteanderson80/Matterport3DSimulator/tree/master/tasks/R2R/data).
 - Augmented data: `data/prevalent`
     - Download the [collected triplets in PREVALENT [1.5GB]](https://zenodo.org/record/4437864/files/prevalent_aug.json?download=1) (pre-processed for easy use).
+
+### Initial HOP weights
+- Pre-trained HOP weights: `load_model/checkpoint`
+  - Download the `pytorch_model.bin` from [here](https://drive.google.com/drive/folders/1bAigKRd3mgxsrppUPDzul89eqUiq0r6Q?usp=sharing).
+
+### Training
+```bash
+bash run/train_agent.bash
+```
+### Evaluating
+```bash
+bash run/test_agent.bash
+```
 
 ## NDH
 
@@ -57,7 +74,7 @@ Please follow the instructions below to prepare the data in directories:
     - Download the [Scene features](https://www.dropbox.com/s/85tpa6tc3enl5ud/ResNet-152-places365.zip?dl=1) (ResNet-152-Places365).
     
 ### Initial HOP weights
-- Pre-trained HOP weights: `load/model`
+- Pre-trained HOP weights for NDH: `load/model`
   - Download the `pytorch_model.bin` from [here](https://drive.google.com/drive/folders/1BbFUns4CqIDMfAJ_fPccRrAiOQ8VAsGh?usp=sharing).
 
 ### Training
